@@ -220,13 +220,25 @@ article.vin1{
 
 article.vin2{
     position: relative;
-    right: 20%;
     border: 6px solid #9a00f3;
     margin: 8px;
     border-radius: 20%;
     padding: 1rem;
     display: inline-block;
     background-color: #A06B9A;
+    height: 75px;
+}
+
+article.vin3{
+    position: relative;
+    left: inherit;
+    width: 100px;
+    border: 6px solid #f30035;
+    margin: 8px;
+    border-radius: 30%;
+    padding: 1rem;
+    display: inline-block;
+    background-color: #d15fc4;
     height: 75px;
 }
 

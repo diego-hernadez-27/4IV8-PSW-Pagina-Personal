@@ -178,3 +178,23 @@
     .menu[data-animation="to-top"] a:hover span:first-child {
         transform: translateY(-100%);
     }
+
+    .tit:hover{
+        box-shadow: 0px 0px 150px  #c081ff;
+        border: 6px solid #c6f300ad;
+    }
+    
+    .foo:hover{
+        box-shadow: 0px 0px 150px  #c081ff;
+        border: 6px solid #c6f300ad;
+    }
+    
+    .col:hover{
+        box-shadow: 0px 0px 150px  #9340e6;
+        border: 6px solid #f3e30079;
+    }
+
+    .col2:hover{
+        box-shadow: 0px 0px 150px  #9340e6;
+        border: 6px solid #f3e300de;
+    }
