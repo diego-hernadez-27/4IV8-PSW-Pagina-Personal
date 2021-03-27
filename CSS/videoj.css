@@ -1,0 +1,123 @@
+
+
+    *{
+        color: azure;
+    }
+
+    article{
+        border: 6px solid #9a00f3;
+        margin: 8px;
+        border-radius: 4px;
+        width: 150px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    section.nava{
+        position: relative;
+        background-color: #651379;
+        text-align: center;
+        left: 20%;
+        width: 80%;
+    }
+    
+     nav{
+        display: inline-block;
+        text-align: center;
+    }
+
+    section.pies{
+        position: relative;
+        background-color: rgb(129, 93, 211);
+        left: 20%;
+        width: 80%;
+    }
+
+    aside{ 
+        border: 6px solid #9a00f3;
+        margin: 8px;
+        border-radius: 4px;
+        padding: 1rem;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    aside.tit{
+        position: relative;
+        width: 94%;
+        height: 10%;
+        right: 0%;
+    }
+    
+    aside.foo{
+        width: 94%;
+        height: 100px;
+    }
+
+    .con > .ima1{
+        position: absolute;
+        right: 12%;
+        width: 100.2px;
+    }
+    
+    .con > .ima2{
+        position: absolute;
+        right: 34.2%;
+        width: 100px;
+    }
+    .con > .ima3{
+        position: absolute;
+        right: 58%;
+        width: 100px;
+    }
+    .con > .ima4{
+        position: absolute;
+        right: 80%;
+        width: 100px;
+    }
+    
+    
+    .container {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+    
+    .columna1, .columna2, .columna3 {
+        width: 100%;
+    }
+
+    @media (min-width: 600px) {
+
+        .columna {
+            position: relative;
+            background-color: #82159d;
+            width: 80%;
+            -webkit-order: 2;
+            order: 2;
+            left: 20%;
+        }
+        
+        .columna2 {
+            position: fixed;
+            background-color: rgb(107, 19, 151);
+            width: 19.8%;
+            height: 98%;
+            -webkit-order: 1;
+            order: 1;
+            top: 1%;
+        }
+    
+    }
+
+    aside.col2{
+        height: 90%;
+    }
+
+    .container {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
